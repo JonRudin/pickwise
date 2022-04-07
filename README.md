@@ -1,6 +1,6 @@
 # Pickwise automation exercise
 
-This suite allows the user to run tests covering the Pickwise website, focusing on the Next Up Sports Filter and a test cover an element of the menu button.
+This suite allows the user to run tests covering the Pickwise website, focusing on the Next Up Sports Filter and a test covering an element of the menu button.
 
 ---
 
