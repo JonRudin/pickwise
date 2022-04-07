@@ -1,0 +1,9 @@
+{
+  "watchForFileChanges": false,
+  "modifyObstructiveCode": false,
+  "integrationFolder": "src/tests/",
+  "stepDefinitions": "src/tests/steps",
+  "testFiles": "**/*.feature",
+  "supportFile": "./cypress/support/index.js",
+  "video": false
+}
