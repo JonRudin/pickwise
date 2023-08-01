@@ -1,0 +1,122 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Pickwise Homepage Tests",
+    "line": 1,
+    "id": "pickwise-homepage-tests",
+    "tags": [],
+    "uri": "pickwiseHomepage.feature",
+    "elements": [
+      {
+        "id": "pickwise-homepage-tests;pickwise-landing-page---validating-sports-filter",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Pickwise landing page - Validating sports filter",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on https://www.pickswise.com/",
+            "result": {
+              "status": "passed",
+              "duration": 1706000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I Select the Next Up Sports Filter",
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I can see an available list of valid Sports to filter by",
+            "result": {
+              "status": "passed",
+              "duration": 126000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "pickwise-homepage-tests;accessing-ufc-betting-via-the-menu",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Accessing UFC Betting via the menu",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am on https://www.pickswise.com/",
+            "result": {
+              "status": "passed",
+              "duration": 2095000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click on the menu button",
+            "result": {
+              "status": "passed",
+              "duration": 197000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on the sports filter",
+            "result": {
+              "status": "passed",
+              "duration": 535000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I click on ufc",
+            "result": {
+              "status": "passed",
+              "duration": 381000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I expect to be redirect to https://www.pickswise.com/ufc/",
+            "result": {
+              "status": "passed",
+              "duration": 93000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "The Header to contain \"UFC Betting\"",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
